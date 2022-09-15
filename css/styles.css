@@ -51,7 +51,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-links {
+.nav-links .link {
   color: var(--secondary-grey-color);
 }
 
