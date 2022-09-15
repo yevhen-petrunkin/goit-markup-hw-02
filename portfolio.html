@@ -11,90 +11,132 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./">WebStudio</a>
+        <a class="logo link" href="./">Web<span>Studio</span></a>
 
-        <ul>
-          <li><a href="./" target="_blank">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="list nav">
+          <li><a class="link" href="./">Студія</a></li>
+          <li><a class="link active" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="link" href="">Контакти</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list nav-links">
+        <li><a class="link primary" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link secondary" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="projects">
         <!-- Заголовок пізніше треба сховати -->
         <h1>Портфоліо</h1>
 
         <!-- Кнопки фільтра -->
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list">
+          <li><button class="bg-grey active" type="button">Усі</button></li>
+          <li><button class="bg-grey" type="button">Веб-сайти</button></li>
+          <li><button class="bg-grey" type="button">Додатки</button></li>
+          <li><button class="bg-grey" type="button">Дизайн</button></li>
+          <li><button class="bg-grey" type="button">Маркетинг</button></li>
         </ul>
 
         <!-- Проєкти -->
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/portfolio-images/port-1.jpg" alt="Екран ноутбука" />
+            <img
+              src="./images/portfolio-images/port-1.jpg"
+              alt="Екран ноутбука"
+              width="370"
+              height="294"
+            />
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-2.jpg" alt="Два баскетболіста" />
+            <img
+              src="./images/portfolio-images/port-2.jpg"
+              alt="Два баскетболіста"
+              width="370"
+              height="294"
+            />
             <h2>Постер New Orlean vs Golden Star</h2>
             <p>Дизайн</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-3.jpg" alt="Емблема рибного ресторану" />
+            <img
+              src="./images/portfolio-images/port-3.jpg"
+              alt="Емблема рибного ресторану"
+              width="370"
+              height="294"
+            />
             <h2>Ресторан Seafood</h2>
             <p>Додаток</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-4.jpg" alt="Навушники" />
+            <img
+              src="./images/portfolio-images/port-4.jpg"
+              alt="Навушники"
+              width="370"
+              height="294"
+            />
             <h2>Проєкт Prime</h2>
             <p>Маркетинг</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-5.jpg" alt="Дві коробки" />
+            <img
+              src="./images/portfolio-images/port-5.jpg"
+              alt="Дві коробки"
+              width="370"
+              height="294"
+            />
             <h2>Проєкт Boxes</h2>
             <p>Додаток</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-6.jpg" alt="Екран монітора" />
+            <img
+              src="./images/portfolio-images/port-6.jpg"
+              alt="Екран монітора"
+              width="370"
+              height="294"
+            />
             <h2>Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-7.jpg" alt="Відкритий журнал" />
+            <img
+              src="./images/portfolio-images/port-7.jpg"
+              alt="Відкритий журнал"
+              width="370"
+              height="294"
+            />
             <h2>Видання Limited Edition</h2>
             <p>Дизайн</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-8.jpg" alt="Бирка" />
+            <img src="./images/portfolio-images/port-8.jpg" alt="Бирка" width="370" height="294" />
             <h2>Проєкт LAB</h2>
             <p>Маркетинг</p>
           </li>
 
           <li>
-            <img src="./images/portfolio-images/port-9.jpg" alt="Робота з ноутбуком" />
+            <img
+              src="./images/portfolio-images/port-9.jpg"
+              alt="Робота з ноутбуком"
+              width="370"
+              height="294"
+            />
             <h2>Growing Business</h2>
             <p>Додаток</p>
           </li>
@@ -102,13 +144,13 @@
       </section>
     </main>
 
-    <footer>
-      <a href="./">WebStudio</a>
+    <footer class="page-footer">
+      <a class="logo link" href="./">Web<span class="footer-logo">Studio</span></a>
       <address>
-        <ul>
-          <li><a href="">.м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li><a class="link address" href="">.м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li><a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
