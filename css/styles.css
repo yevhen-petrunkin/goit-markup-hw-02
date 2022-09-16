@@ -121,7 +121,8 @@ body {
 }
 
 .bg-grey.active,
-.list .bg-grey:hover {
+.list .bg-grey:hover,
+.list .bg-grey:focus {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
